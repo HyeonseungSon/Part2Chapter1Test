@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_weight="1"
+            android:hint="Check 1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </EditText>
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_weight="1"
+            android:hint="Check 2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <Button
+            android:id="@+id/chkBtn1"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/black"
+            android:text="확인 1"
+            android:layout_weight="1"
+            android:background="#999999"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </Button>
+        <Button
+            android:id="@+id/chkBtn2"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/black"
+            android:text="확인 2"
+            android:layout_weight="1"
+            android:background="#999999"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <TextView
+            android:id="@+id/textView"
+            android:textColor="@color/purple_500"
+            android:textSize="30sp"
+            android:text="입력한 값 : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+</LinearLayout>
